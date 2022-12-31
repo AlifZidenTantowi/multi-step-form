@@ -1,0 +1,60 @@
+:root {
+  --Marine-blue: hsl(213, 96%, 18%);
+  --Purplish-blue: hsl(243, 100%, 62%);
+  --Pastel-blue: hsl(228, 100%, 84%);
+  --Light-blue: hsl(206, 94%, 87%);
+  --Strawberry-red: hsl(354, 84%, 57%);
+  --Cool-gray: hsl(231, 11%, 63%);
+  --Light-gray: hsl(229, 24%, 87%);
+  --Magnolia: hsl(217, 100%, 97%);
+  --Alabaster: hsl(231, 100%, 99%);
+  --White: hsl(0, 0%, 100%);
+}
+
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .main-form {
+  width: 934.870px;
+  height: 592.305px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .main-form .form {
+  width: 911.664px;
+  height: 564.679px;
+  background-image: url(/assets/images/bg-sidebar-desktop.svg);
+  background-repeat: no-repeat;
+}
+.main-container .main-form .form .menu {
+  display: flex;
+}
+.main-container .main-form .form .menu .side-bar .step-one{
+  display: flex;
+}
+.main-container .main-form .form .menu .side-bar .step-one h1{
+  background-color: var(--Light-blue);
+  border: 1px solid --Pastel-blue;
+  width: 37.572px;
+  height: 35.362px;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  margin-right:  20px;
+}
+
+
+
